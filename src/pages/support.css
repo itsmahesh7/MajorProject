@@ -1,0 +1,71 @@
+/*body{
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px rgb(170, 167, 167);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}*/
+.heading{
+    height: 200px;
+    width: 100%;
+    /* background:url("./photos/Hope House1.png"); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    position: relative;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+.contact-logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    position: absolute;
+    margin-left: -40px;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px 5px 10px 5px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgb(170, 167, 167);
+    padding:10px 5px;
+}
+.mainbox div img{
+    height: 30px;
+    width:30px;
+    padding: 10px;
+    margin: 10px;
+}
+.logodiv img+i{
+   font-size: 30px;
+   position: relative;
+   top:-23px;
+   font-weight: 600;
+}
+.sub{
+    height: auto;
+    width: 98%;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgb(170, 167, 167);
+    padding: 5px;
+    padding-left: 10px;
+    min-height: 100px;
+    margin-left: 10px;
+}
+.sub li{
+    padding: 3px;
+}

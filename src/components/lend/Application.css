@@ -1,0 +1,116 @@
+body {
+    /* background-image: url(""); */
+    background-size: cover;
+    /* font-family:''; */
+    color: #333;
+    margin: auto;
+    padding: 0;
+    width:900px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #Fff;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    box-shadow: 0 0 1 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #000000;
+    background-image:linear-gradient(to right,#f39fb4,#f88aa5);
+    border: #3498db;
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top:10px;
+    font-size: 30px;
+  }
+  h1{
+    color: #000000;
+    background-image:linear-gradient(to right,#f39fb4,#f88aa5);
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    border-radius: 9px;
+    border-color: #fff;
+    box-shadow: 1px 1px 4px 4px lightgrey;
+  
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    background-color: rgb(228, 226, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .btn-primary{
+    box-shadow: none;
+    color: white;
+    padding : 8px 25px;
+    height: 40px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#d15473,#9c3353)
+}
+  
+  /* Primary and Secondary Colors */
+  .primary-bg {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .secondary-bg {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .primary-border {
+    border: 1px solid #3498db;
+  }
+  
+  .secondary-border {
+    border: 1px solid lightgray;
+  }
+
+  .sai{
+    border-radius: 3px;
+    height: 45px;
+    margin-top: 10px;
+    padding-top:10px;
+  }
+  button[type="submit"]:hover{
+  background-color: #9c3353;
+
+  color:white;
+ }
+ .gani{
+  height:40px;
+  border-radius: 4px;
+ }
+  
+  
